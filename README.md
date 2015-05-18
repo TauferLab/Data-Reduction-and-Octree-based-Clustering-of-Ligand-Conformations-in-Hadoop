@@ -17,12 +17,6 @@ Reengineering High-throughput Molecular Datasets for Scalable Clustering using
 MapReduce. In Proceedings of the 14th IEEE International Conference on High 
 Performance Computing and Communications (HPCC), June 2012, Liverpool, England, UK.
 
-Boyu Zhang, Trilce Estrada, Pietro Cicotti, and Michela Taufer. On Efficiently 
-Capturing Scientific Properties in Distributed Big Data without Moving the Data 
-- A Case Study in Distributed Structural Biology using MapReduce. In the 
-Proceedings of the 16th IEEE International Conferences on Computational Science 
-and Engineering (CSE), December 2013, Sydney, Australia.
-
 ## Directories and files 
 
 ### data
