@@ -5,7 +5,7 @@ molecular geometries produced by high-throughput molecular dynamics simulations
 (e.g., protein folding and protein-ligand docking simulations). The clustering 
 is adapted for MapReduce and implemented in Hadoop. 
 
-For detailed design and implementaion aspects, please refer to our following papers:
+For detailed design and implementation aspects, please refer to our following papers:
 
 Trilce Estrada, Boyu Zhang, Pietro Cicotti, Roger Armen, and Michela Taufer: 
 A Scalable and Accurate Method for Classifying Protein-Ligand Binding Geometries 
@@ -24,7 +24,7 @@ Contains two text files serve as sample input to the Hadoop program.
 
 * ligand_small.txt 
 
-Contains 10 ligand conformtions, one conformation per line. Each line is in the 
+Contains 10 ligand conformations, one conformation per line. Each line is in the 
 format of [ligand_id x1 y1 z1 x2 y2 z2 … xN yN ZN energy rmsd], in which 
 ligand_id is the ligand conformation ID, x1 y1 z1 x2 y2 z2 … xN yN ZN are the 
 coordinates in the Cartesian space of the N ligand atoms, energy is the 
@@ -47,7 +47,7 @@ that control the program behavior, calls map and reduce functions.
 * LRandKeyMapper.java
 
 Contains the map function that transforms ligand conformations to 3-D metadata 
-points using projection and linear interpulation.
+points using projection and linear interpolation.
 
 * LRandKeyReducer.java
 
@@ -86,7 +86,7 @@ Octree_Clustering) => Next => Click on the tab “Libraries” => Add External J
 ```
 => Finish.
 
-* Copy the source files in the src directory which the Eclipse project creats, 
+* Copy the source files in the src directory which the Eclipse project created, 
 and refresh the project in Eclipse.
 
 You should see the source files from Eclipse.
